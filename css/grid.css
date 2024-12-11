@@ -1,0 +1,15 @@
+/* CSS Grid cho hình ảnh */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột đều nhau */
+    gap: 10px; /* Khoảng cách giữa các ảnh */
+    padding: 20px;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Giúp ảnh vừa với khung */
+    border-radius: 8px; /* Bo tròn các góc ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
